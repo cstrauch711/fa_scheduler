@@ -1,0 +1,14 @@
+.venv/
+.env
+__pycache__/
+screenshots/
+token.json
+oauth.txt
+credentials.json
+*.png
+
+*.ipynb
+fa_cal_upload_old.py
+
+data/airports.csv
+data/iata.csv
