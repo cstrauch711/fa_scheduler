@@ -6,6 +6,7 @@ token.json
 oauth.txt
 credentials.json
 *.png
+*.DS_Store
 
 *.ipynb
 fa_cal_upload_old.py
