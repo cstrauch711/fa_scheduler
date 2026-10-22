@@ -68,7 +68,7 @@ def extract_segment(seg):
     times = re.findall(patterns["times"], seg)
     airports = re.findall(patterns["airports"], seg)
     try:
-        if len(flight_number_list) > 1:
+        if len(flight_number_list) >= 1:
             flight_number = flight_number_list[0]
         else:
             flight_number = "???(?)"
@@ -256,7 +256,7 @@ if __name__ == "__main__":
 
     # Create Days
     print("Beginning Scanning")
-    trips = output_schedule("screenshots")
+    trips = output_schedule("images")
 
     continue_yn = input("\nUpload Days ?")
     if continue_yn.strip() == "":
