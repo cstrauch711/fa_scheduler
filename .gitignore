@@ -2,6 +2,7 @@
 .env
 __pycache__/
 screenshots/
+images/
 token.json
 oauth.txt
 credentials.json
